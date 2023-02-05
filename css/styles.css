@@ -1,0 +1,249 @@
+/* Refactored Version */
+
+body{
+    font-family: 'Montserrat';
+    text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Montserrat-bold';  
+     
+}
+
+p{
+    padding: 0 20% 0 20%;
+    color:#8f8f8f;
+}
+
+/* Headings */
+
+.big-heading{
+/* margin: 15% auto 5% auto; */
+    font-family: 'Montserrat';
+    font-weight: 900;
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+
+.section-heading{
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+
+/* Containers */
+
+.container-fluid{
+    padding: 7% 15%;
+}
+
+/* Sections */
+
+.colored-section{
+    background-color: #344D67;
+    /* #227C70; */
+    /* #ff4c68; */
+    color: #fff;
+}
+
+.white-section{
+    background-color: #fff;
+}
+
+/* Navigation Bar */
+
+.navbar{
+    padding: 0 0 4.5rem;
+}
+
+.navbar-brand{
+    font-family: 'Ubuntu';
+    font-size:2.5rem;
+    font-weight: bold;
+}
+
+.nav-item{
+    padding: 0 18px;
+   
+}
+
+.nav-link{
+    font-size:1.2rem ;
+    font-family: 'Montserrat';
+}
+
+/* Download Buttons */
+
+.download-button{
+    margin: 5% 3% 5% 0;
+}
+
+.btn-dark {
+    background-color: #227C70;
+}
+.btn-dark:hover {
+    background-color: #fff;
+    color:#344D67;
+}
+
+/* Title Section */
+
+#title .container-fluid{
+    padding: 3% 15% 8%;
+    text-align: left;
+}
+
+.phone-name{
+   
+color: #26ad9b;
+}
+
+.more, .contact{
+text-decoration: none;
+color:#fff;
+}
+
+.more:hover{
+    color:#344D67;
+}
+
+.contact:hover{
+    color:#344D67;
+}
+
+
+
+/* Title image */
+
+.image-dog{
+    position:relative;
+}
+
+.title-image{
+    width: 60%;
+    transform: rotate(25deg);
+    position: absolute;
+    right:30%;
+}
+
+/* Features */
+
+#features{
+    position:relative;
+
+}
+
+.feature-title{
+    font-size: 1.5;
+}
+
+.box-fe{
+    padding: 5% 0;
+}
+
+.icon-fe{
+    color:#227C70;
+}
+
+.icon-fe:hover{
+    color: #88A47C;
+}
+
+/* Testimonial section */
+
+#testimonials{
+    background-color: #26ad9b;
+}
+
+.testimonial-text{
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+.testimonial-image{
+   width: 10%;
+   background-repeat: no-repeat;
+     background-size: 100% 100%;
+   border-radius: 50%;
+   margin: 20px;
+}
+
+/* Press */
+
+#press{
+    background-color: #26ad9b;
+    padding-bottom: 3%;
+}
+
+.press-logo{
+    width:15%;
+    margin:20px 20px 50px;
+}
+
+/* Pricing section */
+
+#offer{
+    padding: 100px;
+}
+
+.offer-text{
+  font-size: 2rem;
+  line-height: 1.5; 
+}
+
+.offer-paragraph{
+    padding-bottom: 5%;
+}
+
+.pricing-column{
+   padding:3% 2%; 
+}
+
+.purchase{
+    background-color: #344D67;
+    color: #fff;
+}
+
+.purchase .offer-paragraph{
+    color: #fff;
+}
+
+.new{
+    font-style: italic;
+    font-size: 5rem;
+    color: #88A47C;
+}
+
+.purchase-btn:hover{
+    background-color: #344D67;
+    color:#fff;
+}
+
+/* Title section */
+
+@media(max-width:1028px){
+
+    #title{
+        text-align: center;
+    }
+
+    .title-image{
+        position:static;
+        transform: rotate(0);
+    }
+}
+
+/* Call to Action */
+
+
+/* Footer */
+
+
+.social-icon{
+    margin: 20px 10px;
+}
+
+.contact-footer{
+    color:#344D67;
+}
+
+
